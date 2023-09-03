@@ -45,9 +45,11 @@ a:active {
 
 .button:hover {
 	background: #505050;
+	color: white;
 }
 
 .button:active {
+	color: white;
 	background: #616161;
 }
 
@@ -97,4 +99,11 @@ input[type=checkbox] {
 input[type=radio] {
 	width: unset;
 	accent-color: #373737;
+}
+
+code {
+	background: #F3F3F3;
+	display: inline-block;
+	padding: 5px 7px;
+	border-radius: 5px;
 }
