@@ -11,6 +11,15 @@
  h1, h2, h3, h4, h5, h6 {
      color: #212121;
 }
+ a {
+     color: #373737;
+}
+ a:hover {
+     color: #505050;
+}
+ a:active {
+     color: #767676;
+}
  .button {
      display: inline-block;
      background: #373737;
@@ -27,15 +36,6 @@
 }
  .button:active {
      background: #616161;
-}
- a {
-     color: #373737;
-}
- a:hover {
-     color: #505050;
-}
- a:active {
-     color: #767676;
 }
  thead {
      border-bottom: 1px solid #D8D8D8;
